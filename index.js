@@ -7,9 +7,10 @@ export default async function () {
     const testFetch = await fetch('https://www.baidu.com/');
     console.log(testFetch);
     const testFn = () => {
-        return [1,2,3,4,5].map(e => {
+        return [1,2,3,4,5,6].map(e => {
             return e + '-test2';
         });
     };
+    console.log('test rebase')
     return testFn();
 }
