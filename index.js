@@ -13,4 +13,8 @@ export default async function () {
     };
     console.log('test rebase');
     return testFn();
+    1
+    1
+    1
+    1
 }
