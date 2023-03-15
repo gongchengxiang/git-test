@@ -9,9 +9,9 @@ export default async function () {
     const testFn = () => {
         return [1,2,3,4].map(e => {
             return e + '-test2';
-        });
-    };
-    console.log('test rebase');
+        });1
+    };2
+    console.log('test rebase');3
     return testFn();
     1
     1
