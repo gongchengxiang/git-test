@@ -11,6 +11,6 @@ export default async function () {
             return e + '-test2';
         });
     };
-    console.log('test rebase')
+    console.log('test rebase');
     return testFn();
 }
