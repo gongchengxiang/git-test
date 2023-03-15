@@ -13,8 +13,5 @@ export default async function () {
     };2
     console.log('test rebase');3
     return testFn();
-    1
-    1
-    1
-    1
+    111
 }
